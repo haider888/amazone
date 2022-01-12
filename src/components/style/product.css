@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&family=Poppins&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+.products{
+    display: flex;
+    padding: 50px;
+    flex-direction: row;
+    width: 100%;
+    height: 200px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+Card{
+    height:5rem ;
+}
+.proImg{
+    height: 16rem;
+}
+
+.title{
+    font-family: Poppins;
+    font-weight: bolder;
+    
+    
+}
+.desc{
+    color: gray;
+    font-family: Poppins;
+    font-size: 12px;
+
+}
+.quantity{
+    width: 5%;
+    background-color:#F3A847 ;
+    border-radius: 50px;
+    text-align: center;
+    color: white;
+
+}
+.productTitle{
+    /* margin-top: 200px; */
+    text-align: center;
+    font-family: Poppins;
+}
+.item-price{
+    font-family: Poppins;
+}
+

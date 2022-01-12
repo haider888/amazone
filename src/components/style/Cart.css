@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&family=Poppins&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.carticon{
+    color: white;
+}
+.cartTitle{
+    font-family: Poppins;
+    text-align: center;
+}
+
+
+.cart-item-container{
+    width: 100%;
+    /* background-color: tomato; */
+    display: flex;
+    flex-direction: column;
+    
+
+    
+
+}
+.item-info{
+    width: 100%;
+    /* background-color: blueviolet; */
+    display: flex;
+   
+    justify-content: space-around;
+    align-items: center;
+    
+    
+}
+.product-img{
+    /* background-color:violet; */
+    
+}
+
+.product-img img{
+    width: 100%;
+    height: 100px; 
+}
+.product-title{
+    width: 40%;
+    font-family: Poppins;
+    /* background-color:violet; */
+
+}
+.add-minus-quantity{
+    /* background-color: blueviolet; */
+  text-align: center;
+    width:20%;
+}
+.add-minus-quantity input{
+    width: 70%;
+    text-align: center;
+    
+}
+
+.price{
+     width: 10%;
+    /* background-color: turquoise; */
+    text-align: center;
+}
+.remove-item{
+    width: 10%;
+    text-align: center;
+    /* background-color: yellowgreen; */
+}
+.cart-total button{
+   padding: 5px 20px;
+   background-color: #F3A847;
+   outline: none;
+   border: 2px solid #F3A847;
+   color: white;
+   font-family: Poppins;
+
+}
+
